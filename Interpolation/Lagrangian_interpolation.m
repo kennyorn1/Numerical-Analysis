@@ -22,12 +22,3 @@ for  nihei=1:nihep_num
 end
 plot(x,y,'b');
 hold on;
-
-
-
-
-
-
-
-       
-
