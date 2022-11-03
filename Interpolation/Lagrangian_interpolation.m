@@ -1,7 +1,7 @@
 function y=Lagrangian_interpolation(xi,yi,x)
 %拉格朗日插值函数
 %（xi,yi）为要拟合的数据节点，（x,y）为拉格朗日插值函数上的数据点
-%xi,yi,x,y均为向量
+%xi,yi,x,y均为一维向量
 plot(xi,yi,'o');
 hold on;
 interp_num=length(xi);
