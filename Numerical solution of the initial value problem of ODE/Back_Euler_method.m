@@ -2,7 +2,7 @@ clc;
 clear;
 xi=0;
 yi=1;
-h=0.001;
+h=0.1;
 y=[yi];
 x=[xi];
 while xi<1
@@ -19,3 +19,8 @@ while xi<1
 end
 plot(x,y);
 hold on;
+xx=0:0.01:1;
+yy=(1+2*xx).^(1/2);
+plot(xx,yy);
+hold on;
+legend('后退欧拉法','原函数');
