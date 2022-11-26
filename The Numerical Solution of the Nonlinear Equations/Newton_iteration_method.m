@@ -18,9 +18,8 @@ while (xi^2-3*xi+exp(xi)-2)>10^(-6)
     str{1}=['函数图像'];
     str{epochs+1}=['第',num2str(epochs),'次迭代结果'];
     legend(str);
-    
 end
-text(0.5,2.5,['Epochs=',num2str(epochs)])
-title('Newton iteration method')
-text(0.5,2,['函数的零点为',num2str(xi)])
+text(0.5,2.5,['Epochs=',num2str(epochs)]);
+title('Newton iteration method');
+text(0.5,2,['函数的零点为',num2str(xi)]);
 
