@@ -14,3 +14,4 @@ plot(x2,y2);
 hold on;
 v1=trapz(x1,y1)
 v2=trapz(x2,y2)
+legend('步长为0.1','步长为0.001');
